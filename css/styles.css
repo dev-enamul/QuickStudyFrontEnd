@@ -412,9 +412,11 @@ p {
 }
 
 .get-startted {
-  padding: 70px 50px;
+  padding: 15px 50px;
+  margin: 46px 0px;
   width: 100%;
   position: relative;
+  background: #fbefef82;
 }
 .title {
   width: 100%;
@@ -494,7 +496,7 @@ p {
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin: 100px 0;
+  margin: 15px 0;
 }
 .faq > h1 {
   width: 70%;
@@ -574,7 +576,7 @@ footer{
 }
  
 .pricing-section-inner{
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -593,12 +595,82 @@ footer{
   margin-bottom: 0px;
   font-family: Raleway, Literata, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   text-align: center; 
+  color: #e23333;
+}
+.pricing-box{ 
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 20px; 
+  position: relative;
+}
+.pricing-header{
+  background: #e23333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 7px;
+}
+.pricing-box:hover{
+  background: #fef7f7;
+}
+.lesson {
+  color: #e23333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 23px;
+}
+.lesson span{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
 }
 
 .pricing-inner{
   margin-top: 30px;
 }
 
+.lesson-details p{
+  text-align: left;
+  text-align-last: left;
+  font-size: 12px;
+}
+
+.lesson-details p b{
+  font-size: 15px;
+  color: #000;
+}
+ 
 
 
+/* Trial Page  */
+
+
+
+.trial-header{
+  background: #fef7f7;
+}
+.trial-body{ 
+  align-items: center;
+  text-align: -webkit-center;
+}
+
+.trial-body-inner{
+  max-width: 400px;
+}
+
+.trial-body-inner p{
+  font-size: 14px;
+  margin-top: -14px !important;
+}
+
+.trial-body-inner p b{
+  font-weight: 600;
+}
+
+ 
 
